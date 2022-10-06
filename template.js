@@ -42,3 +42,25 @@ console.log(multipleLineWithES6);
 // The carret sign or the back tik sign (` `) are the reason of counting the multiple lines and blank spaces.
 // In ES6 or ECMAScript 6 there were a big update of JavaScript which enables this features.
 // The back tik sign are also used to dynamic the sting.
+
+
+// Let's make a dynamic string.
+
+const firstNumber = 20;
+const secondNumber = 50;
+
+const sum = firstNumber + secondNumber;
+
+const summary = "The sum of: " + firstNumber + " and " + secondNumber + " is: " + sum;
+console.log(summary);
+
+// This line is dynamic now. but it it much expensive expression also bit difficult.
+
+// Let's try it with ES6
+
+const newSummary = `The sum of: ${firstNumber} and ${secondNumber} is: ${sum}`;
+console.log(newSummary);
+
+// The ultimate result is same but the process is much more easier.
+// In ES6, a variable can easily be on the string line with out breaking the line.
+// The variable just needed to be added within a ${} sign. 
